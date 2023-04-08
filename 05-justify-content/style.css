@@ -1,0 +1,72 @@
+/* Justify content */
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.start {
+  justify-content: start;
+}
+.end {
+  justify-content: end;
+}
+.left {
+  justify-content: left;
+}
+.right {
+  justify-content: right;
+}
+
+.column {
+  flex-direction: column;
+  min-height: 300px;
+}
+
+/* Basic */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  background-color: rgba(196, 232, 233, 0.521);
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+/* Flex item */
+.item {
+  margin: 5px;
+  background: tomato;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.item:hover {
+  background: rgba(255, 99, 71, 0.5);
+  font-weight: 700;
+}
